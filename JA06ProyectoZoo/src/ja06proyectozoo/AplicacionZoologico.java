@@ -144,6 +144,9 @@ public class AplicacionZoologico {
                 case 13:
                     listaZoologico.zoologicoClausurado();
                     break;
+                case 14:
+                            System.out.println("Si");
+                    break;
                 default:
                     System.out.println("Introduciste una opcion incorrecta o de salida");
                     break;
@@ -168,6 +171,7 @@ public class AplicacionZoologico {
         System.out.println("11.-Insertar un animal");
         System.out.println("12.-Clausurar zoologico");
         System.out.println("13.-El zoologico fue clausurado exitosamente?");
+        System.out.println("14.-Eres imbecil?");
 
     }
 
