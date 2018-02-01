@@ -29,6 +29,9 @@ public class Animal {
     public String getNombre() {
         return nombre;
     }
+    public void mostrarAnimal(){
+        System.out.println(this.getNombre());
+    }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
